@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"hash"
 
-	"github.com/cenkalti/rain/internal/allocator"
-	"github.com/cenkalti/rain/internal/filesection"
-	"github.com/cenkalti/rain/internal/metainfo"
+	"github.com/ProtocolONE/rain/internal/allocator"
+	"github.com/ProtocolONE/rain/internal/filesection"
+	"github.com/ProtocolONE/rain/internal/metainfo"
 )
 
 const BlockSize = 16 * 1024

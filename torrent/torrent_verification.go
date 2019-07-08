@@ -3,8 +3,8 @@ package torrent
 import (
 	"fmt"
 
-	"github.com/cenkalti/rain/internal/peerprotocol"
-	"github.com/cenkalti/rain/internal/verifier"
+	"github.com/ProtocolONE/rain/internal/peerprotocol"
+	"github.com/ProtocolONE/rain/internal/verifier"
 )
 
 func (t *torrent) handleVerificationDone(ve *verifier.Verifier) {

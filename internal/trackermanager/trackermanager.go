@@ -8,11 +8,11 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/cenkalti/rain/internal/blocklist"
-	"github.com/cenkalti/rain/internal/resolver"
-	"github.com/cenkalti/rain/internal/tracker"
-	"github.com/cenkalti/rain/internal/tracker/httptracker"
-	"github.com/cenkalti/rain/internal/tracker/udptracker"
+	"github.com/ProtocolONE/rain/internal/blocklist"
+	"github.com/ProtocolONE/rain/internal/resolver"
+	"github.com/ProtocolONE/rain/internal/tracker"
+	"github.com/ProtocolONE/rain/internal/tracker/httptracker"
+	"github.com/ProtocolONE/rain/internal/tracker/udptracker"
 )
 
 type TrackerManager struct {

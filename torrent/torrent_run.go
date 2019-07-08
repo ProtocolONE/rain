@@ -3,9 +3,9 @@ package torrent
 import (
 	"time"
 
-	"github.com/cenkalti/rain/internal/peer"
-	"github.com/cenkalti/rain/internal/peersource"
-	"github.com/cenkalti/rain/internal/urldownloader"
+	"github.com/ProtocolONE/rain/internal/peer"
+	"github.com/ProtocolONE/rain/internal/peersource"
+	"github.com/ProtocolONE/rain/internal/urldownloader"
 )
 
 // Torrent event loop

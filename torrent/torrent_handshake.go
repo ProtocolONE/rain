@@ -3,9 +3,9 @@ package torrent
 import (
 	"net"
 
-	"github.com/cenkalti/rain/internal/handshaker/incominghandshaker"
-	"github.com/cenkalti/rain/internal/handshaker/outgoinghandshaker"
-	"github.com/cenkalti/rain/internal/peersource"
+	"github.com/ProtocolONE/rain/internal/handshaker/incominghandshaker"
+	"github.com/ProtocolONE/rain/internal/handshaker/outgoinghandshaker"
+	"github.com/ProtocolONE/rain/internal/peersource"
 )
 
 func (t *torrent) getSKey(sKeyHash [20]byte) []byte {

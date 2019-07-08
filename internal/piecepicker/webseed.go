@@ -3,8 +3,8 @@ package piecepicker
 import (
 	"sort"
 
-	"github.com/cenkalti/rain/internal/peer"
-	"github.com/cenkalti/rain/internal/webseedsource"
+	"github.com/ProtocolONE/rain/internal/peer"
+	"github.com/ProtocolONE/rain/internal/webseedsource"
 )
 
 type WebseedDownloadSpec struct {

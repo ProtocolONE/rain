@@ -6,8 +6,8 @@ import (
 	"net"
 	"time"
 
-	"github.com/cenkalti/rain/internal/logger"
-	"github.com/cenkalti/rain/internal/mse"
+	"github.com/ProtocolONE/rain/internal/logger"
+	"github.com/ProtocolONE/rain/internal/mse"
 )
 
 func Accept(

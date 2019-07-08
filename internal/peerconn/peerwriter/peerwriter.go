@@ -8,9 +8,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/cenkalti/rain/internal/logger"
-	"github.com/cenkalti/rain/internal/peerconn/peerreader"
-	"github.com/cenkalti/rain/internal/peerprotocol"
+	"github.com/ProtocolONE/rain/internal/logger"
+	"github.com/ProtocolONE/rain/internal/peerconn/peerreader"
+	"github.com/ProtocolONE/rain/internal/peerprotocol"
 )
 
 const keepAlivePeriod = 2 * time.Minute

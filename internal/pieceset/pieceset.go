@@ -1,7 +1,7 @@
 package pieceset
 
 import (
-	"github.com/cenkalti/rain/internal/piece"
+	"github.com/ProtocolONE/rain/internal/piece"
 )
 
 type PieceSet struct {

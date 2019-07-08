@@ -5,8 +5,8 @@ import (
 	"time"
 
 	"github.com/boltdb/bolt"
-	"github.com/cenkalti/rain/internal/counters"
-	"github.com/cenkalti/rain/internal/resumer/boltdbresumer"
+	"github.com/ProtocolONE/rain/internal/counters"
+	"github.com/ProtocolONE/rain/internal/resumer/boltdbresumer"
 )
 
 type SessionStats struct {

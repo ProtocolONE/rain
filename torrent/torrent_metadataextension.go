@@ -6,10 +6,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/cenkalti/rain/internal/bufferpool"
-	"github.com/cenkalti/rain/internal/metainfo"
-	"github.com/cenkalti/rain/internal/peer"
-	"github.com/cenkalti/rain/internal/peerprotocol"
+	"github.com/ProtocolONE/rain/internal/bufferpool"
+	"github.com/ProtocolONE/rain/internal/metainfo"
+	"github.com/ProtocolONE/rain/internal/peer"
+	"github.com/ProtocolONE/rain/internal/peerprotocol"
 )
 
 func (t *torrent) handleMetadataMessage(pe *peer.Peer, msg peerprotocol.ExtensionMetadataMessage) {

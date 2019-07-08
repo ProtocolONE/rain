@@ -5,10 +5,10 @@ import (
 	"net"
 	"time"
 
-	"github.com/cenkalti/rain/internal/btconn"
-	"github.com/cenkalti/rain/internal/logger"
-	"github.com/cenkalti/rain/internal/mse"
-	"github.com/cenkalti/rain/internal/peersource"
+	"github.com/ProtocolONE/rain/internal/btconn"
+	"github.com/ProtocolONE/rain/internal/logger"
+	"github.com/ProtocolONE/rain/internal/mse"
+	"github.com/ProtocolONE/rain/internal/peersource"
 )
 
 type OutgoingHandshaker struct {

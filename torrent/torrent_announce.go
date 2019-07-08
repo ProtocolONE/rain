@@ -3,8 +3,8 @@ package torrent
 import (
 	"math"
 
-	"github.com/cenkalti/rain/internal/counters"
-	"github.com/cenkalti/rain/internal/tracker"
+	"github.com/ProtocolONE/rain/internal/counters"
+	"github.com/ProtocolONE/rain/internal/tracker"
 )
 
 func (t *torrent) handleNewTrackers(trackers []tracker.Tracker) {

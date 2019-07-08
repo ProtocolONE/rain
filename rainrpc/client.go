@@ -6,7 +6,7 @@ import (
 	"io"
 	"io/ioutil"
 
-	"github.com/cenkalti/rain/internal/rpctypes"
+	"github.com/ProtocolONE/rain/internal/rpctypes"
 	"github.com/powerman/rpc-codec/jsonrpc2"
 )
 

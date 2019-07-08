@@ -3,8 +3,8 @@ package piecewriter
 import (
 	"crypto/sha1" // nolint: gosec
 
-	"github.com/cenkalti/rain/internal/bufferpool"
-	"github.com/cenkalti/rain/internal/piece"
+	"github.com/ProtocolONE/rain/internal/bufferpool"
+	"github.com/ProtocolONE/rain/internal/piece"
 )
 
 type PieceWriter struct {

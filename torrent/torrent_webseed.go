@@ -3,10 +3,10 @@ package torrent
 import (
 	"time"
 
-	"github.com/cenkalti/rain/internal/counters"
-	"github.com/cenkalti/rain/internal/piecewriter"
-	"github.com/cenkalti/rain/internal/urldownloader"
-	"github.com/cenkalti/rain/internal/webseedsource"
+	"github.com/ProtocolONE/rain/internal/counters"
+	"github.com/ProtocolONE/rain/internal/piecewriter"
+	"github.com/ProtocolONE/rain/internal/urldownloader"
+	"github.com/ProtocolONE/rain/internal/webseedsource"
 )
 
 func (t *torrent) handleWebseedPieceResult(msg *urldownloader.PieceResult) {

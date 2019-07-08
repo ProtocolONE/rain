@@ -10,12 +10,12 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/cenkalti/rain/internal/magnet"
-	"github.com/cenkalti/rain/internal/metainfo"
-	"github.com/cenkalti/rain/internal/resumer"
-	"github.com/cenkalti/rain/internal/resumer/boltdbresumer"
-	"github.com/cenkalti/rain/internal/storage/filestorage"
-	"github.com/cenkalti/rain/internal/webseedsource"
+	"github.com/ProtocolONE/rain/internal/magnet"
+	"github.com/ProtocolONE/rain/internal/metainfo"
+	"github.com/ProtocolONE/rain/internal/resumer"
+	"github.com/ProtocolONE/rain/internal/resumer/boltdbresumer"
+	"github.com/ProtocolONE/rain/internal/storage/filestorage"
+	"github.com/ProtocolONE/rain/internal/webseedsource"
 	"github.com/gofrs/uuid"
 	"github.com/nictuku/dht"
 )

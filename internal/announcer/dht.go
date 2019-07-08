@@ -3,7 +3,7 @@ package announcer
 import (
 	"time"
 
-	"github.com/cenkalti/rain/internal/logger"
+	"github.com/ProtocolONE/rain/internal/logger"
 )
 
 type DHTAnnouncer struct {

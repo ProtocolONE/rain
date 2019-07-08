@@ -3,9 +3,9 @@ package piecedownloader
 import (
 	"testing"
 
-	"github.com/cenkalti/rain/internal/bufferpool"
-	"github.com/cenkalti/rain/internal/peerprotocol"
-	"github.com/cenkalti/rain/internal/piece"
+	"github.com/ProtocolONE/rain/internal/bufferpool"
+	"github.com/ProtocolONE/rain/internal/peerprotocol"
+	"github.com/ProtocolONE/rain/internal/piece"
 	"github.com/stretchr/testify/assert"
 )
 

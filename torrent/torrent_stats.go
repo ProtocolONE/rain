@@ -5,9 +5,9 @@ import (
 	"time"
 	"unicode"
 
-	"github.com/cenkalti/rain/internal/counters"
-	"github.com/cenkalti/rain/internal/mse"
-	"github.com/cenkalti/rain/internal/peersource"
+	"github.com/ProtocolONE/rain/internal/counters"
+	"github.com/ProtocolONE/rain/internal/mse"
+	"github.com/ProtocolONE/rain/internal/peersource"
 )
 
 // Stats contains statistics about Torrent.

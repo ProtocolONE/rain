@@ -3,8 +3,8 @@ package cachedpiece
 import (
 	"encoding/binary"
 
-	"github.com/cenkalti/rain/internal/piece"
-	"github.com/cenkalti/rain/internal/piececache"
+	"github.com/ProtocolONE/rain/internal/piece"
+	"github.com/ProtocolONE/rain/internal/piececache"
 )
 
 type CachedPiece struct {

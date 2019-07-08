@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/cenkalti/rain/internal/peerprotocol"
+	"github.com/ProtocolONE/rain/internal/peerprotocol"
 )
 
 func BenchmarkRead(b *testing.B) {

@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cenkalti/rain/internal/rpctypes"
+	"github.com/ProtocolONE/rain/internal/rpctypes"
 )
 
 var errTorrentNotFound = errors.New("torrent not found")

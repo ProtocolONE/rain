@@ -5,7 +5,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/cenkalti/rain/internal/storage"
+	"github.com/ProtocolONE/rain/internal/storage"
 )
 
 type FileStorage struct {

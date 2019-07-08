@@ -4,7 +4,7 @@ import (
 	"encoding/binary"
 	"io"
 
-	"github.com/cenkalti/rain/internal/peerprotocol"
+	"github.com/ProtocolONE/rain/internal/peerprotocol"
 )
 
 type Piece struct {

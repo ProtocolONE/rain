@@ -5,10 +5,10 @@ import (
 	"net"
 	"time"
 
-	"github.com/cenkalti/rain/internal/logger"
-	"github.com/cenkalti/rain/internal/peerconn/peerreader"
-	"github.com/cenkalti/rain/internal/peerconn/peerwriter"
-	"github.com/cenkalti/rain/internal/peerprotocol"
+	"github.com/ProtocolONE/rain/internal/logger"
+	"github.com/ProtocolONE/rain/internal/peerconn/peerreader"
+	"github.com/ProtocolONE/rain/internal/peerconn/peerwriter"
+	"github.com/ProtocolONE/rain/internal/peerprotocol"
 )
 
 // Conn is a peer connection that provides a channel for receiving messages and methods for sending messages.

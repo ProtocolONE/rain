@@ -7,7 +7,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/cenkalti/rain/internal/mse"
+	"github.com/ProtocolONE/rain/internal/mse"
 )
 
 // Pipe2 is a bidirectional io.Pipe.

@@ -1,7 +1,7 @@
 package peerset
 
 import (
-	"github.com/cenkalti/rain/internal/peer"
+	"github.com/ProtocolONE/rain/internal/peer"
 )
 
 type PeerSet struct {

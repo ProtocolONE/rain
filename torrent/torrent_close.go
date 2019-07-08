@@ -3,10 +3,10 @@ package torrent
 import (
 	"errors"
 
-	"github.com/cenkalti/rain/internal/infodownloader"
-	"github.com/cenkalti/rain/internal/peer"
-	"github.com/cenkalti/rain/internal/piecedownloader"
-	"github.com/cenkalti/rain/internal/webseedsource"
+	"github.com/ProtocolONE/rain/internal/infodownloader"
+	"github.com/ProtocolONE/rain/internal/peer"
+	"github.com/ProtocolONE/rain/internal/piecedownloader"
+	"github.com/ProtocolONE/rain/internal/webseedsource"
 )
 
 var errClosed = errors.New("torrent is closed")
