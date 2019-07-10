@@ -12,7 +12,8 @@ import (
 var handler log.Handler
 
 func init() {
-	SetHandler(log.NewFileHandler(os.Stderr))
+	//SetHandler(log.NewFileHandler(os.Stderr))
+	SetHandler(log.NewFileHandler(os.NewFile(uintptr(0), "/dev/null"))) // We do not need log output
 }
 
 func SetHandler(h log.Handler) {

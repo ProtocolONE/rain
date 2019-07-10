@@ -187,6 +187,7 @@ func (s *Session) add() (id string, port int, sto *filestorage.FileStorage, err 
 		return
 	}
 	id = base64.RawURLEncoding.EncodeToString(u1[:])
+	s.config.DataDir, id = filepath.Split(s.config.DataDir) // We need the path w/o id
 	dest := filepath.Join(s.config.DataDir, id)
 	sto, err = filestorage.New(dest)
 	if err != nil {

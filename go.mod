@@ -7,6 +7,7 @@ require (
 	github.com/cenkalti/log v0.0.0-20180808170110-e1cf6d40cbc3
 	github.com/fatih/color v1.7.0 // indirect
 	github.com/fatih/structs v1.1.0
+	github.com/fortytw2/leaktest v1.3.0
 	github.com/gofrs/uuid v3.2.0+incompatible
 	github.com/google/btree v1.0.0
 	github.com/hashicorp/go-multierror v1.0.0 // indirect
