@@ -8,6 +8,7 @@ import (
 	"net/url"
 	"sync/atomic"
 	"time"
+	"path/filepath"
 
 	"github.com/ProtocolONE/rain/internal/bufferpool"
 	"github.com/ProtocolONE/rain/internal/piece"
@@ -80,7 +81,7 @@ func (d *URLDownloader) Run(client *http.Client, pieces []piece.Piece, multifile
 	buf := pool.Get(int(pieces[d.current].Length))
 
 	processJob := func(job downloadJob) bool {
-		u := d.getURL(job.Filename, multifile)
+		u := d.getURL(filepath.ToSlash(job.Filename), multifile)
 		req, err := http.NewRequest(http.MethodGet, u, nil)
 		if err != nil {
 			panic(err)

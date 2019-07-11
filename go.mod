@@ -19,6 +19,7 @@ require (
 	github.com/nictuku/dht v0.0.0-20190424204932-20d30c21bd4c
 	github.com/powerman/rpc-codec v1.1.2
 	github.com/rcrowley/go-metrics v0.0.0-20190706150252-9beb055b7962
+	github.com/stretchr/testify v1.3.0
 	github.com/urfave/cli v1.20.0
 	github.com/zeebo/bencode v1.0.0
 	gopkg.in/yaml.v2 v2.2.2
