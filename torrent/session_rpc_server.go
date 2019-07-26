@@ -1,12 +1,12 @@
 package torrent
 
 import (
-	"context"
+	//"context"
 	"expvar"
-	"net"
+	//"net"
 	"net/http"
 	"net/rpc"
-	"strconv"
+	//"strconv"
 	"time"
 
 	"github.com/ProtocolONE/rain/internal/logger"
@@ -38,7 +38,7 @@ func newRPCServer(ses *Session) *rpcServer {
 }
 
 func (s *rpcServer) Start(host string, port int) error {
-	addr := net.JoinHostPort(host, strconv.Itoa(port))
+	/*addr := net.JoinHostPort(host, strconv.Itoa(port))
 	listener, err := net.Listen("tcp", addr)
 	if err != nil {
 		return err
@@ -52,13 +52,14 @@ func (s *rpcServer) Start(host string, port int) error {
 			return
 		}
 		s.log.Fatal(err)
-	}()
+	}()*/
 
 	return nil
 }
 
 func (s *rpcServer) Stop(timeout time.Duration) error {
-	ctx, cancel := context.WithTimeout(context.Background(), timeout)
+	/*ctx, cancel := context.WithTimeout(context.Background(), timeout)
 	defer cancel()
-	return s.httpServer.Shutdown(ctx)
+	return s.httpServer.Shutdown(ctx)*/
+	return nil
 }
